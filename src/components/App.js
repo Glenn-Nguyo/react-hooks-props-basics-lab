@@ -12,7 +12,10 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      <About />
+
+      <About bio="I made this" links= {user.links}/>
+      
+
     </div>
   );
 }
